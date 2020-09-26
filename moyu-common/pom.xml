@@ -20,6 +20,7 @@
         <module>moyu-common-security</module>
         <module>moyu-common-core</module>
         <module>moyu-common-swagger</module>
+        <module>moyu-common-mybatis-plus</module>
     </modules>
 
 

@@ -9,25 +9,17 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>moyu-common-security</artifactId>
+    <artifactId>moyu-common-mybatis-plus</artifactId>
 
-    <name>moyu-common-security</name>
-   <description>安全认证模块</description>
+    <name>moyu-common-mybatis-plus</name>
+   <description>mybatis-plus模块</description>
 
     <dependencies>
-
-        <!-- MoYu Api System -->
+        <!-- moyu Common Core-->
         <dependency>
             <groupId>cn.xueden</groupId>
-            <artifactId>moyu-api-system</artifactId>
+            <artifactId>moyu-common-core</artifactId>
         </dependency>
-
-        <!-- moyu Common Redis-->
-        <dependency>
-            <groupId>cn.xueden</groupId>
-            <artifactId>moyu-common-redis</artifactId>
-        </dependency>
-
     </dependencies>
 
 
