@@ -14,5 +14,13 @@
     <name>moyu-api-system</name>
     <description>系统管理微服务接口</description>
 
+    <dependencies>
+        <!-- MoYu Common Core-->
+        <dependency>
+            <groupId>cn.xueden</groupId>
+            <artifactId>moyu-common-core</artifactId>
+        </dependency>
+    </dependencies>
+
 
 </project>
