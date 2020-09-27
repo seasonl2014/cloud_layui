@@ -3,11 +3,15 @@
 
 # 项目介绍
 
-cloud_layui是基于springcloud alibaba+layui整合开发前后端分离权限管理系统,架构思想来源于( [RuoYi-Cloud](https://gitee.com/y_project/RuoYi-Cloud))。。
-以Spring Framework为核心容器，Spring MVC为模型视图控制器，Mybatis Plus为数据访问层， spring security为权限授权层, Redis为分布式缓存,
-注册中心、配置中心选型Nacos，权限认证使用Redis,
-流量控制框架选型Sentinel,
-layui+layuimini作为前端框架并进行前后端分离的开源框架。
+cloud_layui是基于springcloud alibaba+layui整合开发前后端分离权限管理系统,架构思想来源于( [RuoYi-Cloud](https://gitee.com/y_project/RuoYi-Cloud))。
+- 以Spring Framework为核心容器；
+- Spring MVC为模型视图控制器；
+- Mybatis Plus为数据访问层；
+- spring security为权限授权层；
+- Redis为分布式缓存；
+- 注册中心、配置中心选型Nacos；
+- 流量控制框架选型Sentinel；
+- layui+layuimini作为前端框架并进行前后端分离的开源框架。
 
 # 技术文档
 - 讨论加群：qq群①：601212472   
