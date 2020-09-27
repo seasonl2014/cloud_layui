@@ -1,13 +1,9 @@
 # cloud_layui 权限管理系统
 
 
-
-
-![active4j](https://zh-active4j-1251505225.cos.ap-shanghai.myqcloud.com/active4jboot/logo.png "active4j")
-
 # 项目介绍
 
-cloud_layui是基于springcloud alibaba+layui整合开发前后端分离权限管理系统。
+cloud_layui是基于springcloud alibaba+layui整合开发前后端分离权限管理系统,架构思想来源于( [RuoYi-Cloud](https://gitee.com/y_project/RuoYi-Cloud))。。
 以Spring Framework为核心容器，Spring MVC为模型视图控制器，Mybatis Plus为数据访问层， spring security为权限授权层, Redis为分布式缓存,
 注册中心、配置中心选型Nacos，权限认证使用Redis,
 流量控制框架选型Sentinel,
@@ -34,45 +30,25 @@ layui+layuimini作为前端框架并进行前后端分离的开源框架。
 - 前端组件丰富，集成layuimini，基本涵盖了所有前端开发需求
 - 支持多种浏览器: Google, 火狐, IE,360等
 
+# 系统模块
 
-# 组织结构
-
-```html
-active4j
-├── active4j-common  公有工具类工程
-    - com.active4j.common.cache 本地缓存
-    - com.active4j.common.context.util  容器工具
-    - com.active4j.common.func  常用功能组件
-    - com.active4j.common.redis 集成redis
-    - com.active4j.common.threadpool 集成线程池
-    - com.active4j.common.util  常用工具包
-    - com.active4j.common.web.config  springmvc配置
-├── active4j-entity  实体工程
-    - com.active4j.entity.base 基础实体
-    - com.active4j.entity.commcon 公用实体
-    - com.active4j.entity.func 系统常用组件功能实体
-    - com.active4j.entity.system 系统管理模块实体
-├── active4j-dao     dao层
-    - com.active4j.dao.config 数据源配置
-    - com.active4j.dao.func 系统常用组件功能
-    - com.active4j.dao.system.dao  系统管理模块
-    - com.active4j.dao.system.dao.sql sql文件
-├── active4j-service service层
-    - com.active4j.service.func 系统常用组件功能服务
-    - com.active4j.service.monitor 系统监控模块服务
-    - com.active4j.service.system 系统管理模块服务
-    - com.active4j.service.system.util 系统管理工具包
-├── active4j-web     controller层
-    - com.active4j.web.core 核心配置包，包括shiro、springmvc、swagger2等
-    - com.active4j.web.func 系统常用组件功能控制器
-    - com.active4j.web.monitor.controller 监控模块控制器
-    - com.active4j.web.system.controller 系统管理模块控制器
-    - com.active4j.web.system.wrapper 响应结果集包装工具包
-    - com.active4j.web.common.controller 公共控制器包
-├── active4j-ui      基于layui的前端UI，前后端分离
-
-
-```
+~~~
+cn.moyu     
+├── moyu-gateway         // 网关模块 [7000]
+├── moyu-auth            // 认证中心 [8000]
+├── moyu-api             // 接口模块
+│       └── moyu-api-system                          // 系统接口
+├── moyu-common          // 通用模块
+│       └── moyu-common-core                         // 核心模块
+│       └── moyu-common-log                          // 日志记录
+│       └── moyu-common-redis                        // 缓存服务
+│       └── moyu-common-security                     // 安全模块
+│       └── moyu-common-swagger                      // 系统接口
+│       └── moyu-common-mybatis-plus                 // 持久层模块
+├── moyu-modules         // 业务模块
+│       └── moyu-system                              // 系统模块 [9000]
+├──pom.xml                // 公共依赖
+~~~
 
 
 # 技术选型
