@@ -13,6 +13,10 @@ cloud_layui是基于springcloud alibaba+layui整合开发前后端分离权限�
 - 流量控制框架选型Sentinel；
 - layui+layuimini作为前端框架并进行前后端分离的开源框架。
 
+# 前端项目
+
+前端项目地址( [xueden_cloud_layuimini](https://github.com/seasonl2014/xueden_cloud_layuimini))
+
 # 技术文档
 - 讨论加群：qq群①：601212472   
 - 演示地址：[http://money.goodym.cn/layuidemo/page/login.html](http://money.goodym.cn/layuidemo/page/login.html "http://money.goodym.cn/layuidemo/page/login.html")
