@@ -9,6 +9,11 @@ package cn.xueden.common.core.constant;
 public class Constants {
 
     /**
+     * 注销
+     */
+    public static final String LOGOUT = "Logout";
+
+    /**
      * 生成Hash值的迭代次数
      */
     public static final int HASH_INTERATIONS = 1024;

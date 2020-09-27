@@ -1,8 +1,9 @@
 package cn.xueden.system.service.impl;
 
 
+import cn.xueden.common.core.web.domain.SysLog;
 import cn.xueden.system.dao.LogDao;
-import cn.xueden.system.entity.Log;
+
 import cn.xueden.system.service.LogService;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
@@ -16,5 +17,5 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Service
 @Transactional(rollbackFor = Exception.class)
-public class LogServiceImpl extends ServiceImpl<LogDao, Log> implements LogService {
+public class LogServiceImpl extends ServiceImpl<LogDao, SysLog> implements LogService {
 }

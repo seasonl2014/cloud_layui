@@ -14,5 +14,12 @@
     <name>moyu-common-log</name>
     <description>日志记录模块</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>cn.xueden</groupId>
+            <artifactId>moyu-common-security</artifactId>
+        </dependency>
+    </dependencies>
+
 
 </project>

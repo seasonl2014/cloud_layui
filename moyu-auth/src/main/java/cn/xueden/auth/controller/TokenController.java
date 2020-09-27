@@ -3,13 +3,13 @@ package cn.xueden.auth.controller;
 import cn.xueden.auth.form.LoginBody;
 import cn.xueden.auth.service.SysLoginService;
 import cn.xueden.common.core.domain.R;
+import cn.xueden.common.core.utils.XudenStringUtils;
 import cn.xueden.common.security.service.TokenService;
 import cn.xueden.system.api.model.LoginUser;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import javax.servlet.http.HttpServletRequest;
 
 /**功能描述：token 控制
  * @Auther:梁志杰
@@ -32,6 +32,20 @@ public class TokenController {
         LoginUser userInfo = sysLoginService.login(form.getUsername(), form.getPassword());
         // 获取登录token
         return R.ok(tokenService.createToken(userInfo),"登录成功");
+    }
+
+    @DeleteMapping("/logout")
+    public R<?> logout(HttpServletRequest request){
+        LoginUser loginUser = tokenService.getLoginUser(request);
+        if (XudenStringUtils.isNotNull(loginUser))
+        {
+            String username = loginUser.getUsername();
+            // 删除用户缓存记录
+            tokenService.delLoginUser(loginUser.getToken());
+            // 记录用户退出日志
+            sysLoginService.logout(username);
+        }
+        return R.ok();
     }
 
 }

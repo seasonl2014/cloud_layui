@@ -80,6 +80,19 @@ public class TokenService {
         return null;
     }
 
+    /**
+     * 删除用户缓存
+     * @param token
+     */
+    public void delLoginUser(String token)
+    {
+        if (StringUtils.isNotEmpty(token))
+        {
+            String userKey = getTokenKey(token);
+            redisService.deleteObject(userKey);
+        }
+    }
+
 
     /**
      * 刷新令牌有效期

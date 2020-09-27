@@ -39,7 +39,9 @@
         <fastjson.version>1.2.73</fastjson.version>
         <poi.version>3.17</poi.version>
         <common-pool.version>2.6.2</common-pool.version>
+        <commons-codec.version>1.10</commons-codec.version>
         <guava.version>17.0</guava.version>
+        <org-lionsoul.vversion>1.7</org-lionsoul.vversion>
     </properties>
 
     <!-- 依赖声明 -->
@@ -158,6 +160,12 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-pool2</artifactId>
                 <version>${common-pool.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.lionsoul</groupId>
+                <artifactId>ip2region</artifactId>
+                <version>${org-lionsoul.vversion}</version>
             </dependency>
 
             <!-- 核心模块 -->

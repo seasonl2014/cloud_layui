@@ -78,6 +78,7 @@ public class ToolUtil {
         return ip;
     }
 
+
     /**
      * 判断请求是否是ajax请求
      * @param request

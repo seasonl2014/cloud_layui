@@ -28,7 +28,7 @@ import java.util.Set;
  * @version:1.0
  */
 @RestController
-@RequestMapping("api/system/role")
+@RequestMapping("system/role")
 public class RoleController extends BaseController {
     private static final Logger LOGGER = LoggerFactory.getLogger(RoleController.class);
 

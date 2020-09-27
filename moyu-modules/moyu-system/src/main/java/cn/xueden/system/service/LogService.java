@@ -1,7 +1,8 @@
 package cn.xueden.system.service;
 
 
-import cn.xueden.system.entity.Log;
+
+import cn.xueden.common.core.web.domain.SysLog;
 import com.baomidou.mybatisplus.service.IService;
 
 /**功能描述:系统日志服务类
@@ -10,6 +11,6 @@ import com.baomidou.mybatisplus.service.IService;
  * @Description:cn.xueden.modules.system.service
  * @version:1.0
  */
-public interface LogService extends IService<Log> {
+public interface LogService extends IService<SysLog> {
 
 }

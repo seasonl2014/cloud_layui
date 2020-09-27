@@ -8,6 +8,7 @@ import cn.xueden.common.core.exception.BaseException;
 import cn.xueden.common.core.utils.XudenStringUtils;
 import cn.xueden.common.core.web.domain.SysUser;
 import cn.xueden.common.security.utils.SecurityUtils;
+import cn.xueden.system.api.RemoteLogService;
 import cn.xueden.system.api.RemoteUserService;
 import cn.xueden.system.api.model.LoginUser;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class SysLoginService {
 
+    @Autowired
+    private RemoteLogService remoteLogService;
 
     @Autowired
     private RemoteUserService remoteUserService;
@@ -68,5 +71,13 @@ public class SysLoginService {
         }
 
         return userInfo;
+    }
+
+    /**
+     * 记录用户退出日志
+     * @param loginName
+     */
+    public void logout(String loginName){
+        remoteLogService.saveLogininfor(loginName, Constants.LOGOUT, "退出成功");
     }
 }
