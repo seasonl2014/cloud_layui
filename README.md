@@ -63,17 +63,17 @@ cn.moyu
 ### 服务端
 | 技术 | 说明 | 官网  |
 | ------------ | ------------ | ------------ |
-|Spring Boot2|核心框架|[https://spring.io/projects/spring-boot/](https://spring.io/projects/spring-boot/ "https://spring.io/projects/spring-boot/")|
+|spring-cloud-alibaba|核心框架|[https://spring.io/projects/spring-cloud-alibaba/](https://spring.io/projects/spring-cloud-alibaba/ "https://spring.io/projects/spring-cloud-alibaba/")|
 |Spring MVC|视图框架|[http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc "http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc")|
-|Apache Shiro|权限框架|[http://shiro.apache.org/](http://shiro.apache.org/ "http://shiro.apache.org/")|
+|Spring Cloud Security|权限框架|[https://spring.io/projects/spring-cloud-security/](https://spring.io/projects/spring-cloud-security/ "https://spring.io/projects/spring-cloud-security/")|
 |MyBatis|持久层框架|[http://www.mybatis.org/mybatis-3/zh/index.html](http://www.mybatis.org/mybatis-3/zh/index.html "http://www.mybatis.org/mybatis-3/zh/index.html")|
 |MyBatis-Plus|MyBatis增强工具|[https://mp.baomidou.com/](https://mp.baomidou.com/ "https://mp.baomidou.com/")|
-|Alibaba Druid|数据库连接池|[https://github.com/alibaba/druid](https://github.com/alibaba/druid "https://github.com/alibaba/druid")|
+|Alibaba nacos|注册和配置中心|[https://github.com/alibaba/nacos/](https://github.com/alibaba/nacos/ "https://github.com/alibaba/nacos/")|
 |Redis|分布式缓存数据库|[https://redis.io/](https://redis.io/ "https://redis.io/")|
-|Quartz|作业调度框架|[http://www.quartz-scheduler.org/](http://www.quartz-scheduler.org/ "http://www.quartz-scheduler.org/")|
-|ActiveMQ|消息队列|[http://activemq.apache.org/](http://activemq.apache.org/ "http://activemq.apache.org/")|
+|Spring Cloud OpenFeign|服务调用|[https://spring.io/projects/spring-cloud-openfeign/](https://spring.io/projects/spring-cloud-openfeign/ "https://spring.io/projects/spring-cloud-openfeign/")|
+|Spring Cloud Gateway|服务网关|[https://spring.io/projects/spring-cloud-gateway/](https://spring.io/projects/spring-cloud-gateway/ "https://spring.io/projects/spring-cloud-gateway/")|
 |SLF4J|日志组件|[http://www.slf4j.org/](http://www.slf4j.org/ "http://www.slf4j.org/")|
-|QcloudCOS|腾讯云存储|[https://www.qcloud.com/product/cos](https://www.qcloud.com/product/cos "https://www.qcloud.com/product/cos")|
+|alibaba Sentinel|限流熔断|[https://github.com/alibaba/Sentinel/](https://github.com/alibaba/Sentinel/ "https://github.com/alibaba/Sentinel/")|
 |Maven|项目构建管理|[http://maven.apache.org/](http://maven.apache.org/ "http://maven.apache.org/")|
 |swagger2|文档生成工具|[https://swagger.io/](https://swagger.io/ "https://swagger.io/")|
 |Apache Commons|工具类|[http://commons.apache.org/](http://commons.apache.org/ "http://commons.apache.org/")|
@@ -83,7 +83,7 @@ cn.moyu
 | ------------ | ------------ | ------------ |
 |jQuery|js库|[http://jquery.com/](http://jquery.com/ "http://jquery.com/")|
 |layui.table|数据表格|[https://www.layui.com/doc/modules/table.html](https://www.layui.com/doc/modules/table.html "https://www.layui.com/doc/modules/table.html")|
-|bootstrap-treeview|树形结构|[http://www.treejs.cn/v3/](http://www.treejs.cn/v3/ "http://www.treejs.cn/v3/")|
+|layuimini|后台管理模板|[http://layuimini.99php.cn/](http://layuimini.99php.cn/ "http://layuimini.99php.cn/")|
 |layui|前端框架|[https://www.layui.com/](https://www.layui.com/ "https://www.layui.com/")|
 |layui.layer|弹出组件|[https://www.layui.com/doc/modules/layer.html](https://www.layui.com/doc/modules/layer.html "https://www.layui.com/doc/modules/layer.html")|
 |layui.treeTable|树形表格|[https://fly.layui.com/jie/30625/](https://fly.layui.com/jie/30625/ "https://fly.layui.com/jie/30625/")|
