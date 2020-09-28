@@ -117,5 +117,13 @@ cloud_layui使用 Apache-2.0 License 协议.
 
 # 演示截图
 
-![登录页面](https://github.com/seasonl2014/cloud_layui/blob/master/g1.jpg)
+
+
+![菜单管理](https://img-blog.csdnimg.cn/20200928083219672.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2h1aXRpYW93dWRleXU=,size_16,color_FFFFFF,t_70#pic_center)
+
+![日志管理](https://img-blog.csdnimg.cn/20200928083219676.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2h1aXRpYW93dWRleXU=,size_16,color_FFFFFF,t_70#pic_center)
+
+![用户管理](https://img-blog.csdnimg.cn/20200928083219633.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2h1aXRpYW93dWRleXU=,size_16,color_FFFFFF,t_70#pic_center)
+
+![登录页面](https://img-blog.csdnimg.cn/20200928083219276.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2h1aXRpYW93dWRleXU=,size_16,color_FFFFFF,t_70#pic_center)
 
