@@ -117,3 +117,5 @@ cloud_layui使用 Apache-2.0 License 协议.
 
 # 演示截图
 
+![登录页面](https://github.com/seasonl2014/cloud_layui/blob/master/g1.jpg)
+
